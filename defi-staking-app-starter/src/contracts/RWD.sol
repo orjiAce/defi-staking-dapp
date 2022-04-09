@@ -1,8 +1,8 @@
 pragma solidity ^0.5.0;
 
-contract Tether {
-    string  public name = "Mock Tether Token";
-    string  public symbol = "mUSDT";
+contract RWD {
+    string  public name = "Reward Token";
+    string  public symbol = "RWD";
     uint256 public totalSupply = 1000000000000000000000000; // 1 million tokens
     uint8   public decimals = 18;
 
@@ -24,7 +24,6 @@ contract Tether {
     constructor() public {
         balanceOf[msg.sender] = totalSupply;
     }
-
 
     function transfer(address _to, uint256 _value) public returns (bool success) {
         // require that the value is greater or equal for transfer
