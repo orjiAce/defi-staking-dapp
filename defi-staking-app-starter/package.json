@@ -6,6 +6,7 @@
   "description": "DeFi Token Staking App",
   "author": "orjiace",
   "contributors":["orjiAce"],
+  "repository":"https://github.com/orjiAce/defi-staking-dapp",
   "dependencies": {
     "@types/jest": "^26.0.24",
     "@types/node": "^16.3.1",
