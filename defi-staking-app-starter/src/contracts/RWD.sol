@@ -21,6 +21,7 @@ contract RWD {
     mapping(address => uint256) public balanceOf;
     mapping(address => mapping(address => uint256)) public allowance;
     
+    //we set the balance of the onwer equal to the total supply
     constructor() public {
         balanceOf[msg.sender] = totalSupply;
     }
